@@ -7,6 +7,7 @@ body {
 h1,p {
     color: #fff;
 }
-nav a {
+nav a, a {
     padding: 0.5rem;
+    color: rgb(77, 40, 40);
 }
