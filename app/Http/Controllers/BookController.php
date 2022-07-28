@@ -8,13 +8,6 @@ use App\Http\Requests\BookFormRequest;
 
 class BookController extends Controller
 {
-    private static function getData(){
-        return [
-            ['id' => 1, 'name' => 'Sample name', 'brand' => 'Brand Name'],
-            ['id' => 2, 'name' => 'Sample name 1', 'brand' => 'Brand Name 1'],
-            ['id' => 3, 'name' => 'Sample name 2', 'brand' => 'Brand Name 2']
-        ];
-    }
     /**
      * Display a listing of the resource.
      *
