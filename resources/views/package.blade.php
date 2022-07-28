@@ -22,7 +22,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -33,7 +33,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -44,7 +44,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -55,7 +55,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -66,7 +66,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -77,7 +77,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -88,7 +88,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -99,7 +99,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -110,7 +110,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -121,7 +121,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -132,7 +132,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -143,7 +143,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Perferendis, perspiciatis!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 

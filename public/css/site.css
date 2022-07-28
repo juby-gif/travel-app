@@ -548,6 +548,10 @@ section{
    color:var(--light-black);
 }
 
+.booking .book-form .flex .inputBox .form-error{
+    color: 	#ff3333;
+}
+
 .booking .book-form .btn{
    margin-top: 2rem;
 }

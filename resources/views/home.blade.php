@@ -13,7 +13,7 @@
                 <div class="content">
                 <span>explore, discover, travel</span>
                 <h3>travel arround the world</h3>
-                <a href="package.php" class="btn">discover more</a>
+                <a href="{{ route('package') }}" class="btn">discover more</a>
                 </div>
             </div>
 
@@ -21,7 +21,7 @@
                 <div class="content">
                 <span>explore, discover, travel</span>
                 <h3>discover the new places</h3>
-                <a href="package.php" class="btn">discover more</a>
+                <a href="{{ route('package') }}" class="btn">discover more</a>
                 </div>
             </div>
 
@@ -29,7 +29,7 @@
                 <div class="content">
                 <span>explore, discover, travel</span>
                 <h3>make your tour worthwhile</h3>
-                <a href="package.php" class="btn">discover more</a>
+                <a href="{{ route('package') }}" class="btn">discover more</a>
                 </div>
             </div>
 
@@ -93,7 +93,7 @@
     <div class="content">
         <h3>about us</h3>
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Expedita et, recusandae nobis fugit modi quibusdam ea assumenda, nulla quisquam repellat rem aliquid sequi maxime sapiente autem ipsum? Nobis, provident voluptate?</p>
-        <a href="about.php" class="btn">read more</a>
+        <a href="{{ route('about') }}" class="btn">read more</a>
     </div>
 
 </section>
@@ -113,7 +113,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -124,7 +124,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -135,7 +135,7 @@
             <div class="content">
                 <h3>adventure & tour</h3>
                 <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, sint!</p>
-                <a href="book.php" class="btn">book now</a>
+                <a href="{{ route('book.index') }}" class="btn">book now</a>
             </div>
         </div>
 
@@ -151,7 +151,7 @@
     <div class="content">
         <h3>upto 50% off</h3>
         <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Iure tempora assumenda, debitis aliquid nesciunt maiores quas! Magni cumque quaerat saepe!</p>
-        <a href="book.php" class="btn">book now</a>
+        <a href="{{ route('book.index') }}" class="btn">book now</a>
     </div>
 </section>
 
