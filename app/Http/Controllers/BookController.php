@@ -3,6 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+use App\Models\Book;
+use App\Http\Requests\BookFormRequest;
 
 class BookController extends Controller
 {
@@ -20,10 +22,7 @@ class BookController extends Controller
      */
     public function index()
     {
-        return view('book.index',[
-            'books' => self::getData(),
-            'userInput' => '<script>Hello World!</script>'
-        ]);
+        return view('book.index');
     }
 
     /**
@@ -33,7 +32,7 @@ class BookController extends Controller
      */
     public function create()
     {
-        //
+        // return view('book.create');
     }
 
     /**
@@ -42,9 +41,26 @@ class BookController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(BookFormRequest $request)
     {
-        //
+
+        $data = $request -> validated();
+
+        $book = new Book();
+
+        $book -> name = $data['name'];
+        $book -> email = $data['email'];
+        $book -> phone = $data['phone'];
+        $book -> address = $data['address'];
+        $book -> location = $data['location'];
+        $book -> guests = $data['guests'];
+        $book -> arrivals = $data['arrivals'];
+        $book -> leaving = $data['leaving'];
+
+        $book -> save();
+        echo $book;
+
+        return redirect() -> route('book.index');
     }
 
     /**
@@ -55,16 +71,16 @@ class BookController extends Controller
      */
     public function show($book)
     {
-        $books = self::getData();
-        $index = array_search($book, array_column($books, 'id'));
+        // $books = self::getData();
+        // $index = array_search($book, array_column($books, 'id'));
 
-        if($index === false) {
-            abort(404);
-        }
+        // if($index === false) {
+        //     abort(404);
+        // }
 
-        return view('book.show', [
-            'book' => $books[$index]
-        ]);
+        // return view('book.show', [
+        //     'book' => $books[$index]
+        // ]);
     }
 
     /**
