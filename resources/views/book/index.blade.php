@@ -10,8 +10,13 @@
 <!-- booking section starts  -->
 
 <section class="booking">
-   <h1 class="heading-title">book your trip!</h1>
-
+    @if (session('status'))
+    <div class="content">
+        <h3>Thank you for you booking!</h3>
+        <p>{{ session('status') }}</p>
+    </div>
+    @else
+    <h1 class="heading-title">book your trip!</h1>
     <form action="{{ route('book.store') }}" method="post" class="book-form">
         @csrf
         <div class="flex">
@@ -81,6 +86,7 @@
         <input type="submit" value="submit" class="btn" name="send">
 
     </form>
+    @endif
 
 </section>
 

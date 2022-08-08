@@ -5,6 +5,8 @@ namespace App\Http\Controllers;
 use Illuminate\Http\Request;
 use App\Models\Book;
 use App\Http\Requests\BookFormRequest;
+use App\Mail\DemoMail;
+use Illuminate\Support\Facades\Mail;
 
 class BookController extends Controller
 {
@@ -53,7 +55,10 @@ class BookController extends Controller
         $book -> save();
         echo $book;
 
-        return redirect() -> route('book.index');
+        // Sending out email
+        Mail::to($book->email)->send(new DemoMail($book));
+
+        return back() -> with('status','Your booking request has been submitted! Please check your inbox for a confirmation email.');
     }
 
     /**

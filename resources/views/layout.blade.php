@@ -76,7 +76,7 @@
                     <a href="#"> <i class="fab fa-linkedin"></i> linkedin </a>
                 </div>
             </div>
-            <div class="credit"> created by <span>mr. web designer</span> | all rights reserved! </div>
+            <div class="credit"><span>Travel App</span> | all rights reserved! </div>
         </section>
 
         <!-- footer section ends -->

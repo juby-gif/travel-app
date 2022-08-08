@@ -268,6 +268,22 @@ section{
    color:var(--black);
 }
 
+.booking .content p {
+    font-size: 1.5rem;
+    padding:1rem 0;
+    line-height: 2;
+    color:var(--black);
+    text-transform: lowercase;
+ }
+
+.booking .content p:first-letter {
+    font-size: 1.5rem;
+    padding:1rem 0;
+    line-height: 2;
+    color:var(--black);
+    text-transform: capitalize;
+ }
+
 .home-packages{
    background: var(--light-bg);
 }
